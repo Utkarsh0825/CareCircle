@@ -1,11 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Completely disable dev indicators and tools
-  devIndicators: false,
+  // Ensure compatibility with React 18
+  reactStrictMode: false,
   // Disable all development overlays and prompts
   experimental: {
-    // Disable React strict mode warnings
-    strictMode: false,
     // Disable all development features
     turbo: {
       rules: {

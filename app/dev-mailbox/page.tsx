@@ -9,6 +9,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/u
 import { format } from 'date-fns'
 import { Mail as MailIcon, Calendar, User, HelpCircle } from 'lucide-react'
 import { TourTrigger } from '@/components/tour/tour-trigger'
+import Link from 'next/link'
 
 export default function DevMailboxPage() {
   const [selectedMail, setSelectedMail] = useState<Mail | null>(null)
